@@ -1,0 +1,29 @@
+html, body {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Roboto';
+}
+
+h1 {
+    margin: 0;
+    color: white;
+    font-size: 2rem;
+}
+.filter-white {
+filter: invert(100%) sepia(50%) saturate(0%) hue-rotate(271deg) brightness(111%) contrast(101%);
+width: 50px;
+height: 50px;
+}
+
+.searchbar {
+    width: 15%;
+    height: 100vh;
+    background-color: #6b21a8;
+}
+
+.logo {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 15px;
+}
