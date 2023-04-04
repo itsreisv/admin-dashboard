@@ -4,73 +4,88 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
     <title>Admin Dashboard</title>
 </head>
 <body>
-<div class="searchbar">
-    <div class="logo">
-    <img src="images/view-dashboard.svg" class="filter-white">
-    <h1>Dashboard</h1>
+    <div class="sidebar">
+        <div class="logo">
+        <img src="images/view-dashboard.svg" alt="dashboard icon" class="svg">
+        <h1>Dashboard</h1>
+        </div>
+        <div class="user-panel">
+            <ul>
+                <li>
+                    <img src="images/home.svg" alt="home icon" class="svg-small">
+                    <h2><a href=#>Home</a></h2>
+                </li>
+                <li>
+                    <img src="images/briefcase-account-outline.svg" alt="profile icon" class="svg-small">
+                    <h2><a href=#>Profile</a></h2>
+                </li>
+                <li>
+                    <img src="images/message.svg" alt="message icon" class="svg-small">
+                    <h2><a href=#>Messages</a></h2>
+                </li>
+                <li>
+                    <img src="images/history.svg" alt="history icon" class="svg-small">
+                    <h2><a href=#>History</a></h2>
+                </li>
+                <li>
+                    <img src="images/clipboard.svg" alt="tasks icon" class="svg-small">
+                    <h2><a href=#>Tasks</a></h2>
+                </li>
+                <li>
+                    <img src="images/account-group.svg" alt="communites icon" class="svg-small">
+                    <h2><a href=#>Communities</a></h2>
+                </li>
+            </ul>
+        </div>
+         <div class="settings">
+            <ul>
+                <li>
+                    <img src="images/cog.svg" alt="settings icon" class="svg-small">
+                    <h2><a href=#>Settings</a></h2>
+                </li>
+                <li>
+                    <img src="images/help.svg" alt="support icon" class="svg-small">
+                    <h2><a href=#>Support</a></h2>
+                </li>
+                <li>
+                    <img src="images/security.svg" alt="privacy icon" class="svg-small">
+                    <h2><a href=#>Privacy</a></h2>
+                </li>
+            </ul>
+        </div>
     </div>
 
-    <div class="user-panel">
-        <ul>
-            <li>
-                <img src="images/home.svg" alt="home icon" class="filter-small">
-                <h2><a href=#>Home</a></h2>
-            </li>
-            <li>
-                <img src="images/briefcase-account-outline.svg" alt="profile icon" class="filter-small">
-                <h2><a href=#>Profile</a></h2>
-            </li>
-            <li>
-                <img src="images/message.svg" alt="message icon" class="filter-small">
-                <h2><a href=#>Messages</a></h2>
-            </li>
-            <li>
-                <img src="images/history.svg" alt="history icon" class="filter-small">
-                <h2><a href=#>History</a></h2>
-            </li>
-            <li>
-                <img src="images/clipboard.svg" alt="tasks icon" class="filter-small">
-                <h2><a href=#>Tasks</a></h2>
-            </li>
-            <li>
-                <img src="images/account-group.svg" alt="community icon" class="filter-small">
-                <h2><a href=#>Communities</a></h2>
-            </li>
-        </ul>
+    <div class="header">
+        <div class="searchbar">
+           <img src="images/magnify.svg" alt="search icon" class="svg-black searchBtn">
+            <form action="#" method="push">
+                <input type="search" name="search" id="search" class="search">
+            </form>
+        </div>
+        <div class="userinfo">
+            <img src="images/bell-ring-outline.svg" alt="alert icon" class="svg-black">
+            <img src="images/mugen.jpg" alt="profile icon" class="profile">
+            <h3>Reis VanderPol</h3>
+        </div>
+        <div class="greet">
+            <img src="images/mugen.jpg" alt="profile icon" class="profile2">
+            <p class="hi">Hi there,</p>
+            <h3>Reis Vanderpol (@itsreisv)</h3>
+
+        </div>
+        <div class="entry">
+
+        </div>
+
     </div>
 
-    <div class="settings">
-        <ul>
-            <li>
-                <img src="images/cog.svg" alt="settings icon" class="filter-small">
-                <h2><a href="#">Settings</a></h2>
-            </li>
-            <li>
-                <img src="images/help.svg" alt="support icon" class="filter-small">
-                <h2><a href="#">Support</a></h2>
-            </li>
-            <li>
-                <img src="images/security.svg" alt="privacy icon" class="filter-small">
-                <h2><a href="#">Privacy</a></h2>
-            </li>
-        </ul>
-    </div>
-
-
-
-</div>
-
-<div class="header">
-
-</div>
-
-<div class="sidebar">
-
-</div>
 
 <div class="container">
     <div class="projects">
